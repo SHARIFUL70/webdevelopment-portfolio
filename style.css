@@ -52,13 +52,19 @@ nav li a {
 
 header {
     background: #FFF8F3;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+   /* width: 100%vw;
+   height: 50%vh; */
+   background-size: 634px;
 }
 
 .banner {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 30px;
+    /* padding: 30px; */
 
 }
 .banner h1{
@@ -66,6 +72,7 @@ header {
     font-weight: 700;
     font-size: 45px;
     color: #181818;
+    
 }
 .banner h3{
     font-family: Open Sans;
@@ -80,7 +87,8 @@ font-size: 27px;
 
 .banner>img {
     width: 384px;
-    /* height: 476px; */
+    margin-bottom: 1px;
+    
     /* background-image: url(images/header_bg.png); */
     
 
