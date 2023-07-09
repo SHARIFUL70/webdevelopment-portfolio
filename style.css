@@ -1,4 +1,4 @@
-body {}
+
 
 nav {
     display: flex;
@@ -46,9 +46,14 @@ nav li a {
     font-weight: 700;
     border: 0px;
     padding: 15px 35px;
-    color: white;
+    color: rgb(243, 247, 247);
+    border: 1px solid #FD6E0A;
 
 }
+.nav-btn:hover{
+    background-color: rgba(240, 248, 255, 0.072);
+}
+
 
 header {
     background: #FFF8F3;
@@ -234,7 +239,7 @@ header {
 
 }
 
-.resume-item {}
+
 
 .resume-item h2 {
     font-family: Open Sans;
