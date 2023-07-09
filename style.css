@@ -207,54 +207,67 @@ header {
     margin-left: 5px;
 }
 
-.summary{
+.summary {
     text-align: center;
-font-family: Open Sans;
-font-size: 35px;
+    font-family: Open Sans;
+    font-size: 35px;
 
-font-weight: 700;
+    font-weight: 700;
 
 }
-.resume-container{
+
+.resume-container {
     display: flex;
     background-color: #f7e8e8;
     justify-content: space-around;
 
-    
+
 }
-.resume-container p{
+
+.resume-container p {
     width: 511px;
     font-family: Open Sans;
-font-size: 16px;
-color: #757575;
-font-weight: 400;
-line-height: 28px;
-    
-}
-.resume-item{
-    
-}
-.resume-item h2{
-    font-family: Open Sans;
-font-size: 30px;
-color: #474747;
-font-weight: 700;
+    font-size: 16px;
+    color: #757575;
+    font-weight: 400;
+    line-height: 28px;
 
 }
-.resume-description{
+
+.resume-item {}
+
+.resume-item h2 {
+    font-family: Open Sans;
+    font-size: 30px;
+    color: #474747;
+    font-weight: 700;
+
+}
+
+.resume-description {
     padding-bottom: 20px;
 }
-.resume-description h3{
+
+.resume-description h3 {
     font-family: Open Sans;
-font-size: 15px;
-color: #474747;
-font-weight: 300;
+    font-size: 15px;
+    color: #474747;
+    font-weight: 300;
 
 }
-.resume-description h5{
+
+.resume-description h5 {
     font-family: Open Sans;
     font-size: 12px;
     color: #bcadad;
-font-weight: 100;
+    font-weight: 100;
+
+}
+
+.Download-cv {
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    margin-top: 50px;
 
 }
